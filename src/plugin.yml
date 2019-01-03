@@ -1,0 +1,5 @@
+name: FileBase
+main: se.LoneWoIf.file.FileBase
+version: 1.1.5
+author: LoneWoIf aka. PythonIT
+description: This plugin provides a Configuration File Manager for use in my other plugins.
