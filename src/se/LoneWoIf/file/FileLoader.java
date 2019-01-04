@@ -8,10 +8,18 @@ import java.io.IOException;
 
 public class FileLoader {
 
-    private static File PLUGINS_FOLDER = new File("./plugins");
+    public static File MAIN_FOLDER;
+
+    FileLoader() {
+        MAIN_FOLDER = new File("./plugins");
+    }
+
+    FileLoader(String mainDir) {
+        MAIN_FOLDER = new File("." + mainDir);
+    }
 
     private File getFile(String relPath) {
-        File file = new File(PLUGINS_FOLDER.getPath() + "/" + relPath);
+        File file = new File(MAIN_FOLDER.getPath() + "/" + relPath);
         if (!file.exists()) {
             file.getParentFile().mkdirs();
             try {
