@@ -7,7 +7,8 @@ plugins.
 ## Installation
 
 To install my plugin on a spigot server just download the latest build 
-[here]() and add it to your `plugins` folder on your Spigot server. It is a dependency
+[here](http://www.mediafire.com/file/ya0s9t2a09hk5w9/FileBase-1.1.6.jar/file) 
+and add it to your `plugins` folder on your Spigot server. It is a dependency
 for almost all of my other plugins.
 
 To use this Plugin in your own ones just add this plugin as dependency to your own
